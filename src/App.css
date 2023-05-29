@@ -1,0 +1,138 @@
+
+.App {
+  text-align: center;
+}
+
+/* Base */
+.base-main{
+    display: grid;
+    justify-content: center;
+    flex-direction:row;  
+} 
+
+/* Heading */
+.heading{
+  background: center / cover url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03OWmkp_aEM5Wzi66ZCrvlR0phLQNdAijHvua_LGzWc9eTmnuzht1xgac9nWZvxBhzfk&usqp=CAU");
+
+      background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+/* Form */
+.form{
+  display: grid;
+    justify-content: center;
+     flex-direction:row;
+     row-gap: 10px;    
+}
+
+/* Card-Data */
+.card-details{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 15px;
+  row-gap: 15px; 
+}
+
+/* Input-Field */
+#input{
+
+  width: 400px;
+  height: 15px;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+              -23px 0 20px -23px rgba(0, 0, 0, .8),
+              23px 0 20px -23px rgba(0, 0, 0, .8),
+              inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
+.log-in{
+  margin: 20px;
+}
+
+
+/* Add data button */
+
+.add-btn{
+ 
+  background-image: linear-gradient(to left, #C4E538, #07e451, #C4E538);
+  width: 150px;
+  height: 30px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Navbar */
+
+.Navbar-icons{
+  position: relative !important;
+}
+
+  .nav-btn{
+       border: none;
+       background: transparent;
+       padding-bottom: 5px !important;
+       color: white;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 500;
+       cursor: pointer;
+      
+  }
+
+  .nav-btn:hover{
+    border-bottom: 2px solid greenyellow !important;
+  }
+
+
+/* Lottie animation */
+
+.container{
+  width: 600px;
+  height: 500px;
+}
+
+
+/* Profile */
+
+.profileBody{
+padding: 10px;
+}
+
+.profile-body{
+  background-color: bisque;
+  }
+
+#profilename{
+  font-weight: bold;
+}
+
+
+/* Authpage */
+
+#label{
+  color: blue;
+}
+
+#login-btn{
+  background-image: linear-gradient(to left, #C4E538, #07e451, #C4E538);
+  color: white;
+}
+
+#logout{
+position: absolute !important;
+top: 9px;
+right: 30px;
+}
+
+.Hint{
+  margin-top: 50px;
+  color: red;
+}
